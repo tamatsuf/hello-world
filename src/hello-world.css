@@ -26,18 +26,49 @@ body {
 }
 
 .hello-page {
-  padding: 24px;
+  width: min(100%, 600px);
+  padding: 40px 24px;
   text-align: center;
 }
 
 .hello-page h1 {
   margin: 0;
-  font-size: 48px;
+  font-size: clamp(2.5rem, 7vw, 4rem);
   line-height: 1.2;
 }
 
-.hello-page p {
-  margin: 12px 0 0;
-  color: #333;
+.subtitle {
+  margin: 12px 0 32px;
+  color: #555;
   font-size: 20px;
+}
+
+.info-card {
+  margin-bottom: 16px;
+  padding: 24px;
+  border-radius: 16px;
+  background: #f4f4f4;
+  box-shadow: 0 4px 16px rgb(0 0 0 / 8%);
+}
+
+.info-card h2 {
+  margin: 0 0 8px;
+  font-size: 18px;
+}
+
+.clock,
+.counter {
+  margin: 0;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+.clock {
+  color: #0066cc;
+  font-size: clamp(1.5rem, 5vw, 2.5rem);
+}
+
+.counter {
+  color: #0a7a43;
+  font-size: 2rem;
 }
