@@ -1,0 +1,43 @@
+:root {
+  color-scheme: light;
+  color: #111;
+  background: #fff;
+  font-family: Arial, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  background: #fff;
+}
+
+#root {
+  display: grid;
+  min-height: 100vh;
+  place-items: center;
+}
+
+.hello-page {
+  padding: 24px;
+  text-align: center;
+}
+
+.hello-page h1 {
+  margin: 0;
+  font-size: 48px;
+  line-height: 1.2;
+}
+
+.hello-page p {
+  margin: 12px 0 0;
+  color: #333;
+  font-size: 20px;
+}
